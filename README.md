@@ -45,6 +45,9 @@ _SASL-v3.17.2 only.  SASL-v3.2.7 will crash._
 The correct location to copy the avionics_device.* files to needs to be determined. This shouldn't be too difficult.
 
 
+## How does this work?
+This extension conforms to the _Lua Rock_ standard and can be loaded in via a call to the `require(module_name)` Lua function.
+
 
 ## API
 See [API.md](/API.md) for more.
